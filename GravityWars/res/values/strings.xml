@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gravity Wars</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Gravity Wars</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Start</string>
+    <string name="settings">Settings</string>
+    <string name="quit">Quit</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="sound_is_on">Sound is on</string>
+    <string name="sound_is_off">Sound is off</string>
+    <string name="volume">Volume:</string>
+    <string name="vibration_is_on">Vibration is on</string>
+    <string name="vibration_is_off">Vibration is off</string>
+    <string name="back">Back</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_round_options">RoundOptionsActivity</string>
+    <string name="fight">Fight!</string>
+    <string name="players">Players:</string>
+
+</resources>

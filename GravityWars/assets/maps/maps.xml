@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maps>
+	<mapset name="Just Easy" icon="icon.jpg" path="easy_round" />
+	<mapset name="Just Hard" icon="icon.jpg" path="hard_round" />
+	<mapset name="Just Hard" icon="icon.jpg" path="hard_round" />
+	<mapset name="Just Hard" icon="icon.jpg" path="hard_round" />
+	<mapset name="Just Easy" icon="icon.jpg" path="easy_round" />
+	<mapset name="Just Easy" icon="icon.jpg" path="easy_round" />
+	<mapset name="Just Easy" icon="icon.jpg" path="easy_round" />
+	<mapset name="Just Hard" icon="icon.jpg" path="hard_round" />
+	<mapset name="Just Hard" icon="icon.jpg" path="hard_round" />
+</maps>

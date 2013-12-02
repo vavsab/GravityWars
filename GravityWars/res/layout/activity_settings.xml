@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SettingsActivity" >
+
+    <ToggleButton
+        android:id="@+id/toggleButtonSound"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:checked="false"
+        android:onClick="SoundButton_Click"
+        android:textOff="@string/sound_is_off"
+        android:textOn="@string/sound_is_on" />
+
+    <LinearLayout
+        android:id="@+id/volumeLayout"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/volume"
+            android:text="@string/volume" />
+
+        <SeekBar
+            android:id="@+id/seekBarVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:contentDescription="@string/volume"
+            android:max="100"
+            android:progress="10" />
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButtonVibration"
+        android:onClick="VibrationButton_Click"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textOff="@string/vibration_is_off"
+        android:textOn="@string/vibration_is_on" />
+    
+    <Button
+        android:id="@+id/buttonSettingsQuit"
+        android:layout_marginTop="15dp"
+        android:onClick="QuitButton_Click"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" />
+
+</LinearLayout>

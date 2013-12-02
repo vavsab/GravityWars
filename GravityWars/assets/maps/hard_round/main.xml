@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapset
+    name="Just Hard"
+    bulletWidth="0.7"
+    bulletHeight="0.7"
+    ico="icon.jpg"
+    width="32"
+    height="20"
+    mapsAmount="3"
+    maxPlayers="4"
+    path="hard_round"
+    playerBlowWidth="3"
+    playerBlowHeight="3"
+    playerWidth="3"
+    playerHeight="3" />
+<map
+    name="first map"
+    bg="bg.jpg" >
+
+    <spawn-point
+        angle="90"
+        x="5"
+        y="18" />
+
+    <spawn-point
+        angle="15"
+        x="25"
+        y="5" />
+
+    <spawn-point
+        angle="120"
+        x="23"
+        y="17" />
+
+    <spawn-point
+        angle="9"
+        x="10"
+        y="3" />
+
+    <planet 
+        x="2"
+        y="5"
+        width="5"
+        angle="10"
+        period="5"
+        type="mars"
+        height="5"
+        weight="30" />
+    
+    <planet 
+        x="15"
+        y="8"
+        width="4"
+        height="4"
+        angle="90"
+        period="3"
+        type="venera"
+        weight="30" />
+    
+    <planet 
+        x="18"
+        y="4"
+        width="3"
+        height="3"
+        angle="90"
+        period="3"
+        type="default"
+        weight="40" />
+    
+    <planet 
+        x="15"
+        y="18"
+        width="6"
+        height="6"
+        angle="90"
+        period="3"
+        type="mercury"
+        weight="50" />
+    
+</map>
+
+<map
+    name="second map"
+    bg="bg.jpg" >
+
+    <spawn-point
+        angle="90"
+        x="10"
+        y="10" />
+
+    <spawn-point
+        angle="15"
+        x="12"
+        y="12" />
+
+    <spawn-point
+        angle="120"
+        x="15"
+        y="16" />
+
+    <spawn-point
+        angle="9"
+        x="2"
+        y="5" />
+
+    <planet 
+        x="2"
+        y="5"
+        width="5"
+        angle="10"
+        period="5"
+        type="mars"
+        height="5"
+        weight="30" />
+    
+    <planet 
+        x="20"
+        y="4"
+        width="2"
+        height="2"
+        angle="90"
+        period="3"
+        type="venera"
+        weight="30" />
+    
+</map>
+<mapset>
+
+</mapset>

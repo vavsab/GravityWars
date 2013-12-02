@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ships">
+        <item >default</item>
+        <item >red</item>
+        <item >blue</item>
+        <item >purple</item>
+        <item >yellow</item>
+        <item >orange</item>
+        <item >azure</item>
+        <item >light-green</item>
+    </string-array>
+    
+</resources>
